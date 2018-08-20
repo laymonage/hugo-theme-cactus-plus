@@ -738,11 +738,14 @@ h2.month {
 #sharing a {
     font-size: 20px;
     font-size: 13px;
-    font-weight: bold;
     color: #fff;
     padding: 6px 10px;
     border-radius: 4px;
     margin-left: 2px;
+}
+
+#share-buttons a {
+    margin: 5px 10px;
 }
 
 
