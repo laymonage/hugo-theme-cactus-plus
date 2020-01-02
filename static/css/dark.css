@@ -1,0 +1,135 @@
+html {
+    background-color: #181a1b !important;
+}
+
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+
+html, body, input, textarea, select, button {
+    border-color: #575757;
+    color: #e8e6e3;
+}
+
+a {
+    color: #3391ff;
+}
+
+table {
+    border-color: #4c4c4c;
+}
+
+::placeholder {
+    color: #bab5ab;
+}
+
+::selection {
+    background-color: #005ccc;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #005ccc;
+    color: #ffffff;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #545b00 !important;
+    color: #e8e6e3 !important;
+}
+
+::-webkit-scrollbar {
+    background-color: #1c1e1f;
+    color: #c5c1b9;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a2c2e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #323537;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #3d4043;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+
+* {
+    scrollbar-color: #2a2c2e #1c1e1f;
+}
+
+.jfk-bubble {
+    background-color: #000000 !important;
+}
+
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+
+::placeholder {
+    opacity: 0.5 !important;
+}
+
+body {
+    color: rgb(195, 191, 182);
+}
+
+nav.main-nav a {
+    color: rgb(91, 176, 240);
+}
+
+nav.main-nav a.cta {
+    background-image: initial;
+    background-color: rgb(64, 156, 212);
+    color: rgb(255, 255, 255);
+}
+
+.profile h1 {
+    color: rgb(220, 217, 212);
+}
+
+#post-list a {
+    color: rgb(214, 211, 205);
+}
+
+h3, h4, h5 {
+    color: rgb(214, 211, 205);
+}
+
+.archive .post-time {
+    color: rgb(186, 181, 171);
+}
+
+.post h1 {
+    color: rgb(220, 217, 212);
+}
+
+.post h2.headline {
+    color: rgb(191, 186, 177);
+}
+
+a {
+    color: rgb(86, 166, 241);
+}
+
+a, #title, #post-list a:hover, #title:hover {
+    text-decoration-color: initial;
+}
+
+b, strong {
+    color: rgb(219, 217, 211);
+}
+
+#toc {
+    color: rgb(186, 181, 171);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: #444 0px 0px 0px 1px inset;
+}

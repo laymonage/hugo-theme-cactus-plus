@@ -172,8 +172,6 @@ h2 {
 
 nav.main-nav {
     padding: 20px 20px 0;
-    background: #fff;
-    background: rgba(255, 255, 255, .90);
     margin: 0 auto;
     text-align: right;
     z-index: 100;
@@ -197,8 +195,6 @@ nav.main-nav a.cta {
 @media (max-width: 700px) {
   nav.main-nav {
       padding: 20px 10px 0 0;
-      background: #fff;
-      background: rgba(255, 255, 255, .90);
       margin: 0 auto;
       text-align: right;
       z-index: 100;
@@ -213,8 +209,8 @@ nav.main-nav a.cta {
       border-radius: 3px;
   }
 }
-@media (max-width: 324px) {
-    nav.main-nav a.cta {
+@media (max-width: 426px) {
+    #home-nav ~ a.cta {
       display: none;
     }
 }
@@ -934,4 +930,8 @@ a.symbol:hover {
 }
 .page-tags ul li a:hover {
     color: #5694f1;
+}
+
+:root, body {
+    transition: .4s;
 }

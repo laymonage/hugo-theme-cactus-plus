@@ -40,4 +40,7 @@
 		{{ range .Site.Params.customCSS }}
 		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 		{{ end }}
+
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/darktoggle.css">
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/dark.css" id="dark-css" disabled>
 	</head>
