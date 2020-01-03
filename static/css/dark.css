@@ -111,6 +111,10 @@ h3, h4, h5 {
     color: rgb(220, 217, 212);
 }
 
+.post h2 {
+    color: rgb(226, 224, 219);
+}
+
 .post h2.headline {
     color: rgb(191, 186, 177);
 }
@@ -127,9 +131,44 @@ b, strong {
     color: rgb(219, 217, 211);
 }
 
+blockquote {
+    border-left-color: rgb(54, 54, 54);
+}
+
 #toc {
     color: rgb(186, 181, 171);
     background-image: initial;
     background-color: rgb(24, 26, 27);
     box-shadow: #444 0px 0px 0px 1px inset;
+}
+
+code, pre code {
+    color: rgb(186, 181, 171);
+    background-color: rgb(24, 26, 27);
+    box-shadow: #444 0px 0px 0px 1px inset;
+}
+
+.hljs-keyword, .hljs-selector-tag {
+    color: rgb(176, 144, 197);
+}
+
+.hljs-variable, .hljs-template-variable, .hljs-tag, .hljs-name,
+.hljs-selector-id, .hljs-selector-class, .hljs-regexp, .hljs-deletion {
+    color: rgb(225, 106, 107);
+}
+
+.hljs-string, .hljs-symbol, .hljs-bullet, .hljs-addition {
+    color: rgb(229, 255, 120);
+}
+
+.hljs-number, .hljs-built_in, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
+    color: rgb(246, 153, 64);
+}
+
+.hljs-title, .hljs-section {
+    color: rgb(133, 173, 209);
+}
+
+.hljs-comment, .hljs-quote {
+    color: rgb(186, 181, 170);
 }
