@@ -52,7 +52,6 @@ const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme
 
 if (currentTheme && currentTheme === 'dark') {
 	toggleSwitch.checked = true;
-	document.getElementById('dark-css').disabled = false;
 }
 
 $(document).ready(retina);
