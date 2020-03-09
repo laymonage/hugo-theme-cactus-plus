@@ -101,6 +101,17 @@ table {
     content: '\e803';
 }
 
+#git-info .feather {
+    display: inline-block;
+    vertical-align: -.125em;
+    width: 1em;
+    height: 1em;
+}
+
+#git-info svg {
+    margin-right: .25em;
+}
+
 
 /* Spacing */
 
