@@ -306,6 +306,9 @@ ul>li {
 
 b, strong {
     font-weight: 500;
+}
+
+p b, p strong {
     color: #1E2025;
 }
 

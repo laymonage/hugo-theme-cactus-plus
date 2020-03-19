@@ -127,7 +127,7 @@ a, #title, #post-list a:hover, #title:hover {
     text-decoration-color: initial;
 }
 
-b, strong {
+p b, p strong {
     color: rgb(219, 217, 211);
 }
 
