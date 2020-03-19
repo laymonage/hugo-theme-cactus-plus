@@ -47,6 +47,12 @@
                 {{ end }}
             {{ end }}
 
+            {{ if .Site.Params.enableUtterances }}
+                {{ if ne .Params.comments false }}
+                    {{ partial "utterances.html" . }}
+                {{ end }}
+            {{ end }}
+
             {{ if .Site.Params.showLatestPosts }}
                 {{ partial "latest-posts.html" . }}
             {{ end }}

@@ -1,0 +1,22 @@
+<div id="utterances">
+    <div id="utterances-frame"></div>
+    <script id="utterances-template">
+        function loadUtterances(siteTheme) {
+            var s = document.createElement('script');
+            var themeLight = '{{ .Site.Params.utterancesThemeLight }}';
+            var themeDark = '{{ .Site.Params.utterancesThemeDark }}';
+            var theme = siteTheme === 'dark' ? themeDark : themeLight;
+            s.setAttribute('src', 'https://utteranc.es/client.js');
+            s.setAttribute('repo', '{{ .Site.Params.utterancesRepo }}');
+            s.setAttribute('issue-term', '{{ .Site.Params.utterancesMapping }}');
+            s.setAttribute('label', '{{ .Site.Params.utterancesLabel }}');
+            s.setAttribute('theme', theme);
+            s.setAttribute('crossorigin', 'anonymous');
+
+            var frame = document.querySelector("#utterances-frame");
+            frame.innerHTML = '';
+            frame.appendChild(s);
+
+        }
+    </script>
+</div>

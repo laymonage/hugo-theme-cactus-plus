@@ -955,3 +955,9 @@ a.symbol:hover {
 :root, body {
     transition: .4s;
 }
+
+/* Utterances */
+
+.utterances {
+    margin-top: 4em;
+}
