@@ -42,11 +42,13 @@ function loadUtterancesSafe(theme) {
 function switchTheme(e) {
     if (e.target.checked) {
         document.getElementById('dark-css').disabled = false;
+        document.getElementById('dark-highlight-css').disabled = false;
 		localStorage.setItem('theme', 'dark');
 		loadUtterancesSafe('dark');
     }
     else {
-        document.getElementById('dark-css').disabled = true;
+		document.getElementById('dark-css').disabled = true;
+		document.getElementById('dark-highlight-css').disabled = true;
 		localStorage.setItem('theme', 'light');
 		loadUtterancesSafe('light');
     }

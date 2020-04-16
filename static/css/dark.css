@@ -147,28 +147,3 @@ code, pre code {
     background-color: rgb(24, 26, 27);
     box-shadow: #444 0px 0px 0px 1px inset;
 }
-
-.hljs-keyword, .hljs-selector-tag {
-    color: rgb(176, 144, 197);
-}
-
-.hljs-variable, .hljs-template-variable, .hljs-tag, .hljs-name,
-.hljs-selector-id, .hljs-selector-class, .hljs-regexp, .hljs-deletion {
-    color: rgb(225, 106, 107);
-}
-
-.hljs-string, .hljs-symbol, .hljs-bullet, .hljs-addition {
-    color: rgb(229, 255, 120);
-}
-
-.hljs-number, .hljs-built_in, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
-    color: rgb(246, 153, 64);
-}
-
-.hljs-title, .hljs-section {
-    color: rgb(133, 173, 209);
-}
-
-.hljs-comment, .hljs-quote {
-    color: rgb(186, 181, 170);
-}

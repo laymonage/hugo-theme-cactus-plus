@@ -28,7 +28,7 @@
 
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/atom-one-light.css">
 
 		{{ if eq .Site.Params.iconFont "font-awesome" }}
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
@@ -46,9 +46,11 @@
 
 		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/darktoggle.css">
 		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/dark.css" id="dark-css" disabled>
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/atom-one-dark.css" id="dark-highlight-css" disabled>
 		<script>
 			if (localStorage.getItem('theme') === 'dark') {
 				document.getElementById('dark-css').disabled = false;
+				document.getElementById('dark-highlight-css').disabled = false;
 			}
 		</script>
 	</head>
