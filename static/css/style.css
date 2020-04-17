@@ -304,7 +304,7 @@ ul>li {
 }
 
 b, strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p b, p strong {
@@ -350,13 +350,13 @@ em, i {
     margin-top: 40px;
     margin-bottom: 20px;
     color: #222;
-    font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 400 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .post h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font: 300 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 400 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #111;
 }
 
