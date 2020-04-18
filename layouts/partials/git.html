@@ -15,5 +15,11 @@
         {{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}
         {{ end }}
         {{ end }}
+        {{ if .Site.Params.gitHistoryUrl }}
+        <span> — </span>
+        <a href="{{ .Site.Params.gitHistoryUrl }}{{ .File.Path }}" target="_blank" rel="noopener">
+            <code>git log</code>
+        </a>
+        {{ end }}
     </p>
 </div>
