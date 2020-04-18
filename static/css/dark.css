@@ -143,7 +143,5 @@ blockquote {
 }
 
 code, pre code {
-    color: rgb(186, 181, 171);
-    background-color: rgb(24, 26, 27);
     box-shadow: #444 0px 0px 0px 1px inset;
 }

@@ -968,4 +968,9 @@ code {
     border-radius: 0.25em;
     margin-left: 0.25em;
     margin-right: 0.25em;
+    color: inherit;
+}
+
+code, pre code {
+    box-shadow: #CCC 0px 0px 0px 1px inset;
 }
