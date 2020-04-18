@@ -8,7 +8,7 @@
             <line x1="17.01" y1="12" x2="22.96" y2="12"></line>
         </svg>
         <a href="{{ .Site.Params.gitUrl }}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">
-            {{ .GitInfo.AbbreviatedHash }}
+            <code>{{ .GitInfo.AbbreviatedHash }}</code>
         </a>{{ if .Site.Params.showGitDate }} @ {{ if .Site.Params.dateformNum }}
         {{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}
         {{ else }}
