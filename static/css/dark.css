@@ -127,10 +127,6 @@ a, #title, #post-list a:hover, #title:hover {
     text-decoration-color: initial;
 }
 
-p b, p strong {
-    color: rgb(219, 217, 211);
-}
-
 blockquote {
     border-left-color: rgb(54, 54, 54);
 }
