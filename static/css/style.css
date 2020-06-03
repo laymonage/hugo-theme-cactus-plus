@@ -121,6 +121,10 @@ table {
     margin-bottom: 20px;
 }
 
+#post-body ul ul, #post-body ul ol, #post-body ol ol, #post-body ol ul {
+    margin-bottom: 0px;
+}
+
 
 /* Base */
 
